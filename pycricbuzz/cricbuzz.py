@@ -69,7 +69,7 @@ class Cricbuzz():
 		return d
 
 	def matches(self):
-		url = "http://mapps.cricbuzz.com/cbzios/match/livematches"
+		url = "http://m.cricbuzz.com/livematches"
 		crawled_content = self.crawl_url(url)
 		matches = crawled_content['matches']
 		info = []
