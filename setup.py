@@ -7,8 +7,8 @@ setup(
   author = 'Shivam Mitra',
   author_email = 'shivamm389@gmail.com',
   license = 'GPLv2',
-  url = 'https://github.com/codophobia/pycricbuzz', 
-  download_url = 'https://github.com/codophobia/pycricbuzz/tarball/2.4', 
+  url = 'https://github.com/Naveen-kumar-creator/pycricbuzz', 
+  download_url = 'https://github.com/Naveen-kumar-creator/pycricbuzz.git', 
   keywords = ['cricket', 'cricbuzz'], 
   install_requires=[
           'requests',
