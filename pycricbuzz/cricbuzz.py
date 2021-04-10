@@ -8,6 +8,7 @@ class Cricbuzz():
 	def crawl_url(self,url):
 		try:
 			r = requests.get(url).json()
+                        print(r)
 			return r
 		except Exception:
 			raise
